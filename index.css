@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 1.7em;}
+p{font-size: 1.10em;}
+
+
+
+button:hover{
+background-color: rgb(39, 204, 127);
+}
+
+.container{
+  max-width: 700px;
+  margin: auto;
+}
+
+header{
+  background-color: rgb(250, 215, 228);
+}
+
+header .logo{
+  margin: o;
+  padding: 25px 30px ;
+  font-family: 'Alex Brush', cursive; 
+  font-weight: bold;
+  font-size: 5.5em;
+
+}
+
+header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
+header nav{
+display: flex;
+text-align: column;
+padding-bottom: 25px;
+font-size: x-large;
+padding:100px 0 ;
+
+}
+
+
+
+header a{
+
+  padding: 50px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(3, 3, 3); 
+  font-size: 1.8em;
+  
+  
+}
+
+.menu2{
+    
+    font-family: 'Alex Brush', cursive;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    float: left;
+    margin-left: 150px;
+    padding: 20px;
+    
+    
+}
+
+.menu6{
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Alex Brush', cursive; 
+    display: table;
+    padding: 5px 12px;
+    font-weight: bold;
+    font-size: 1.8em;
+    float: left;
+    margin-left: 150px;
+    padding: 25px;
+}
+.menu4{
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Alex Brush', cursive; 
+    display: table;
+    padding: 5px 12px;
+    font-weight: bold;
+    font-size: 1.8em;
+    float: left;
+    margin-left: 150px;
+    padding: 25px;
+}
+.menu5{
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Alex Brush', cursive; 
+    display: table;
+    padding: 5px 12px;
+    font-weight: bold;
+    font-size: 1.8em;
+    float: left;
+    margin-left: 150px;
+    padding: 25px;
+}
+
+
+
+
+#hero{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+height: 95vh;
+color: rgb(252, 252, 252);
+background-image: url(./imagenes/uñas-acrilicas.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+font-family:'Alex Brush', cursive ;
+}
+
+.container{
+  text-align: center;
+  padding: 200px 50px;
+  font-family:'Alex Brush', cursive ;
+  font-size: xx-large;
+  
+  
+
+}
+
+
+
+.carta{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(22, 16, 10);
+  font-family:'Alex Brush', cursive ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.footer-bg{
+  text-align: center;
+  font-family:'Alex Brush', cursive ;
+  padding: 100px 0;
+
+  
+  
+
+}
+
+.campo-1{
+  margin-bottom: 15px;
+  
+}
+
+.campo{
+  margin: 5px;
+  padding: 20px 15px;
+  width: 205px;
+  background-color: cornsilk;
+  border: 1px;
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+
+textarea{
+
+  width: 700px ;
+  justify-content: center;
+  text-align: center ;
+  background-color: cornsilk;
+  display: flexbox;
+  
+
+}
+
+
+.footer-text{
+  text-align: center;
+  padding: 10px;
+  font-family:'Alex Brush', cursive ;
+
+}
+.btn-1{
+  position: relative;
+  left: -10px;
+  
+  }
+
+.Servicios{
+  font-family:'Alex Brush', cursive ;
+  text-align: center ;
+  
+}
+.servicio-titulo{
+  font-size: xx-large;
+}
+
+.servicio1:nth-child(1){
+  font-family:'Alex Brush', cursive ;
+  background-image: url(./imagenes/acrilicas2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  justify-content: center;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+ color: azure;
+ 
+  
+}
+
+.servicio2:nth-child(2){
+  font-family:'Alex Brush', cursive ;
+  background-image: url(./imagenes/semi\ permanente.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  justify-content: center;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: azure;
+ 
+ 
+}
+
+.servicio3:nth-child(3){
+  font-family:'Alex Brush', cursive ;
+  background-image: url(./imagenes/service2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  justify-content: center;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+ color: azure;
+ 
+  
+}
+
+
+
+
+
